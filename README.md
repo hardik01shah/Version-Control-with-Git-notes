@@ -13,14 +13,8 @@ A repository or "repo" is a project, a code base containing all scripts and file
 - Git clone:  
 Git clone command is used when you want to work on a public repo on github or any other remote, and you want to work on it locally on your PC. It is as if you are downloading the entire project on your machine and now it is upto you to do whatever you want to. Note that this repository will automatically be initialized as a git repository on your machine and you can push this to other remotes as well after making your changes.  
 Terminal command:  
-'''sh
-git clone <url>
-'''
-
 ```sh
-cd dillinger
-npm i
-node app
+git clone <url:https/https://github.com/hardik01shah/code-templates.git>
 ```
 A repo can be cloned, updated and then pushed to github.  
 
