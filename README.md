@@ -142,5 +142,6 @@ While I was at it, I also learnt markdown. This README contains git commands and
 
 git-commands.txt file consists of all the bash commands for git.  
 For getting acquainted to markdown refer to : https://www.markdownguide.org/basic-syntax/  
+For git tutorials refer to: https://youtube.com/playlist?list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV  
 
 The other two cpp scripts are my templates for competitive coding.
