@@ -11,6 +11,7 @@ git push origin master
 (or)
 git push <remote> <branch>
 
+//commit and save are different things. once you save you need to commit those changes to include them in version control.
 git commit -a -m "Type your message here"
 
 git config --list
