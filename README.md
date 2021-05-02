@@ -1,7 +1,8 @@
 # Code-Templates
 
 Created this repo for understanding the concpets of git and github.  
-Notes:
+Notes:  
+
 A repo can be cloned, updated and then pushed to github.  
 
 An existing directory on local machine,
