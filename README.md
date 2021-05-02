@@ -1,8 +1,9 @@
 # Code-Templates
 
-Created this repo for understanding the concpets of git and github.
+Created this repo for understanding the concpets of git and github.  
 Notes:
-A repo can be cloned, updated and then pushed to github.
+A repo can be cloned, updated and then pushed to github.  
+
 An existing directory on local machine,
 - can be initialized as a git repo using git init
 - files can be added using git add (git add . to add all files)
