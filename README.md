@@ -9,10 +9,10 @@ Git is a version control software for keeping track of your work. Git ensures th
 Github is a webservice that uses git and has a great GUI that makes it easier for people to use.  
 It is possible that a person uses Github but has no idea what is git, and it is also possible that a person does not use Github but uses git for version control of local files. However, we get the best of both worlds when we use  git and github together. Github is a remote, i.e. it is a parallel server for all your directories on your local machine. Github puts out your work in open for the open-source community where people can collaborate and suggest changes to your work. Thus its best to use Git and Github together.  
  
-- Repository:  
+- **Repository:**  
 A repository or "repo" is a project, a code base containing all scripts and files pertaining to a particular project of yours.  
 
-- Git clone:  
+- **Git clone:**  
 Git clone command is used when you want to work on a public repo on github or any other remote, and you want to work on it locally on your PC. It is as if you are downloading the entire project on your machine and now it is upto you to do whatever you want to. Note that this repository will automatically be initialized as a git repository on your machine and you can push this to other remotes as well after making your changes. A repo can be cloned, updated and then pushed to github.  
 Terminal command:  
 ```sh
@@ -22,7 +22,7 @@ For e.g.
 ```sh
 https/https://github.com/hardik01shah/code-templates.git
 ```
-- Git init:  
+- **Git init:**  
 This command is used for pushing existing directories on your machine to a remote like github. Not all directories on your machine are git repositories. They need to be initialized as git repositories. To do that use the command:  
 ```sh
 git init
@@ -35,13 +35,13 @@ An existing directory on local machine,
 5. create a remote on your local machine using git remote add
 6. push all your changes using git_push  
 
-- Git status:  
+- **Git status*:**  
 This commmand is used to get the status of the pwd(present working directory). Once you execute this command you get to know what all changes are yet to be committed, what all files are not added to the repository. 
 ```sh
 git status
 ```
 
-- Git remote:  
+- **Git remote:**  
 There are various commands associated with remotes.  
 This command shows you the list of all the remotes available for that git repository.
 ```sh
@@ -62,7 +62,7 @@ For e.g.
 git remote add origin https://github.com/hardik01shah/code_templates.git
 ```
 
-- Git config:  
+- **Git config:**  
 This command gives you information about your registered email and username with git on your local machine.
 ```sh
 git config --list
@@ -90,7 +90,7 @@ TO commit all the files in the pwd, you don't need to use git add. Directly run 
 git commit -a -m "Type-your-message-here"
 ```
 
--Git push:  
+- **Git push:**  
 Now that changes have been committed, you need to push these changes to a remote like github. After this command changes you made locally on your machine will be visible on your github repo.  
 Use:
 ```sh
@@ -101,7 +101,7 @@ For e.g.
 git push origin master 
 ```
 
--Git Pull:  
+- **Git Pull:**  
 Now, if you made changes to your files on your remote like Github, or someone else who is collaborator pushed some changes to the repo on the remote, and you want that version on your local machine, you pull those changes using git pull. Note that, if you make some changes on your local machine and some changes have been made on the remote repo, but haven't been pulled and you try to push your changes an error will come up. Like this:
 ```sh
 ! [rejected]        master -> master (fetch first)
@@ -122,7 +122,7 @@ For e.g.
 ```sh
 git pull origin master
 ```
-- Git clone vs Git pull:  
+- **Git clone vs Git pull:**  
 Git clone is used for just downloading exactly what is currently working on the remote server repository and saving it in your machine's folder where that project is placed. Mostly it is used only when we are going to upload the project for the first time. After that pull is the better option.
 
 Git pull is a (clone(download) + merge) operation and mostly used when you are working as teamwork. In other words, when you want the recent changes in that project, you can pull.
