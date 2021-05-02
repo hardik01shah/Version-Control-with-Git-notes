@@ -5,9 +5,9 @@ While I was at it, I also learnt markdown. This README contains git commands and
 
 ## _Git Concepts:_  
 - **Git vs Github:**  
-Git is a version control software for keeping track of your work. Git ensures that a complete history of your edits on a particular file is recorded. A very important point is, that you need to install git on your PC i.e. git works only locally on your machine and is responsible for version control of local files and directories. With git,  you can keep track of your errors that you resolved in a particular code, collaboration also becomes easier.  
-Github is a webservice that uses git and has a great GUI that makes it easier for people to use.  
-It is possible that a person uses Github but has no idea what is git, and it is also possible that a person does not use Github but uses git for version control of local files. However, we get the best of both worlds when we use  git and github together. Github is a remote, i.e. it is a parallel server for all your directories on your local machine. Github puts out your work in open for the open-source community where people can collaborate and suggest changes to your work. Thus its best to use Git and Github together.  
+1. Git is a version control software for keeping track of your work. Git ensures that a complete history of your edits on a particular file is recorded. A very important point is, that you need to install git on your PC i.e. git works only locally on your machine and is responsible for version control of local files and directories. With git,  you can keep track of your errors that you resolved in a particular code, collaboration also becomes easier.  
+2. Github is a webservice that uses git and has a great GUI that makes it easier for people to use.  
+3. It is possible that a person uses Github but has no idea what is git, and it is also possible that a person does not use Github but uses git for version control of local files. However, we get the best of both worlds when we use  git and github together. Github is a remote, i.e. it is a parallel server for all your directories on your local machine. Github puts out your work in open for the open-source community where people can collaborate and suggest changes to your work. Thus its best to use Git and Github together.  
  
 - **Repository:**  
 A repository or "repo" is a project, a code base containing all scripts and files pertaining to a particular project of yours.  
@@ -123,22 +123,24 @@ For e.g.
 git pull origin master
 ```
 - **Git clone vs Git pull:**  
-Git clone is used for just downloading exactly what is currently working on the remote server repository and saving it in your machine's folder where that project is placed. Mostly it is used only when we are going to upload the project for the first time. After that pull is the better option.
+	Git clone is used for just downloading exactly what is currently working on the remote server repository and saving it in your machine's folder where that project is placed. Mostly it is used only when we are going to upload the project for the first time. After that pull is the better option.
 
-Git pull is a (clone(download) + merge) operation and mostly used when you are working as teamwork. In other words, when you want the recent changes in that project, you can pull.
+	Git pull is a (clone(download) + merge) operation and mostly used when you are working as teamwork. In other words, when you want the recent changes in that project, you can pull.
 
-The clone will setup additional remote-tracking branches.
-git pull:
-```sh
-git init
-git remote add origin git://github.com/<username>/<repo-name>.git
-git fetch --all
-git pull origin master
-```
-git clone:
-```sh
-git clone git://github.com/chandra/repo.git 
-```
+	The clone will setup additional remote-tracking branches.
+	git pull:
+	```sh
+	git init
+	git remote add origin git://github.com/<username>/<repo-name>.git
+	git fetch --all
+	git pull origin master
+	```
+	git clone:
+	```sh
+	git clone git://github.com/chandra/repo.git 
+	```
 
 git-commands.txt file consists of all the bash commands for git.  
+For getting acquainted to markdown refer to : https://www.markdownguide.org/basic-syntax/  
+
 The other two cpp scripts are my templates for competitive coding.
