@@ -12,3 +12,5 @@ An existing directory on local machine,
 4. create a repo on github
 5. create a remote on your local machine using git remote add
 6. push all your changes using git_push
+
+git-commands.txt file consists of all the bash commands for git
