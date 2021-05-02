@@ -3,8 +3,6 @@
 Created this repo for understanding the concpets of git and github.  
 While I was at it, I also learnt markdown. This README contains git commands and some basic explanation wherever needed for future reference.
 
-## Notes:  
-
 ## _Git Concepts:_  
 - Git vs Github:  
 Git is a version control software for keeping track of your work. Git ensures that a complete history of your edits on a particular file is recorded. A very important point is, that you need to install git on your PC i.e. git works only locally on your machine and is responsible for version control of local files and directories. With git,  you can keep track of your errors that you resolved in a particular code, collaboration also becomes easier.  
@@ -19,6 +17,11 @@ Terminal command:
 git clone <url>
 '''
 
+```sh
+cd dillinger
+npm i
+node app
+```
 A repo can be cloned, updated and then pushed to github.  
 
 An existing directory on local machine,
