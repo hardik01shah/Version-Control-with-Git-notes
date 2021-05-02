@@ -14,3 +14,12 @@ git push <remote> <branch>
 git commit -a -m "Type your message here"
 
 git config --list
+
+//for pushing existing directory to github
+git add <file_name>
+git add . (to add all files)
+git commit -m "Adding files"
+
+//for creating a new remote(origin is a convention, it is the name of the remote)
+git remote add origin https://github.com/hardik01shah/code_templates.git
+git remote add origin https://github.com/<username>/<repo_name>.git
