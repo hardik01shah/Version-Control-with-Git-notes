@@ -122,6 +122,22 @@ While I was at it, I also learnt markdown. This README contains git commands and
 	```sh
 	git pull origin master
 	```
+- **Git Fetch:**  
+	Git fetch is used to fetch all information about changes in the remote branch. Run:
+	```sh
+	git fetch --all
+	git status
+	```
+	Now, if you have made changes on your remote but not pulled them it will show
+	```sh
+	On branch master
+	Your branch is behind '<remote>/<branch>' by 1 commit, and can be fast-forwarded.
+	  (use "git pull" to update your local branch)
+
+	nothing to commit, working tree clean
+	```
+	Now use git pull to incorporate the changes.
+	
 - **Git clone vs Git pull:**  
 	Git clone is used for just downloading exactly what is currently working on the remote server repository and saving it in your machine's folder where that project is placed. Mostly it is used only when we are going to upload the project for the first time. After that pull is the better option.
 
