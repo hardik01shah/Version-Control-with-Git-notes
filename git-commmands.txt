@@ -21,5 +21,6 @@ git add . (to add all files)
 git commit -m "Adding files"
 
 //for creating a new remote(origin is a convention, it is the name of the remote)
+*this will work only if a repository is created on github. first create repo on github and then run the add remote cmd.
 git remote add origin https://github.com/hardik01shah/code_templates.git
 git remote add origin https://github.com/<username>/<repo_name>.git
