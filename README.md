@@ -14,5 +14,4 @@ An existing directory on local machine,
 6. push all your changes using git_push
 
 git-commands.txt file consists of all the bash commands for git.  
-
 The other two cpp scripts are my templates for competitive coding.
