@@ -112,7 +112,7 @@ hint: to the same ref. You may want to first integrate the remote changes
 hint: (e.g., 'git pull ...') before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 ```
-To fix, ull the remote changes and then push your changes. A merge will occur in this situation and if no merge conflicts occur, the merge will be handled by git.
+To fix, pull the remote changes and then push your changes. A merge will occur in this situation and if no merge conflicts occur, the merge will be handled by git.
 
 to pull use:
 ```sh
