@@ -4,7 +4,7 @@ Created this repo for understanding the concpets of git and github.
 While I was at it, I also learnt markdown. This README contains git commands and some basic explanation wherever needed for future reference.
 
 ## _Git Concepts:_  
-- Git vs Github:  
+- **Git vs Github:**  
 Git is a version control software for keeping track of your work. Git ensures that a complete history of your edits on a particular file is recorded. A very important point is, that you need to install git on your PC i.e. git works only locally on your machine and is responsible for version control of local files and directories. With git,  you can keep track of your errors that you resolved in a particular code, collaboration also becomes easier.  
 Github is a webservice that uses git and has a great GUI that makes it easier for people to use.  
 It is possible that a person uses Github but has no idea what is git, and it is also possible that a person does not use Github but uses git for version control of local files. However, we get the best of both worlds when we use  git and github together. Github is a remote, i.e. it is a parallel server for all your directories on your local machine. Github puts out your work in open for the open-source community where people can collaborate and suggest changes to your work. Thus its best to use Git and Github together.  
@@ -35,7 +35,7 @@ An existing directory on local machine,
 5. create a remote on your local machine using git remote add
 6. push all your changes using git_push  
 
-- **Git status*:**  
+- **Git status:**  
 This commmand is used to get the status of the pwd(present working directory). Once you execute this command you get to know what all changes are yet to be committed, what all files are not added to the repository. 
 ```sh
 git status
@@ -68,7 +68,7 @@ This command gives you information about your registered email and username with
 git config --list
 ```
 
-- Git add and Git commit:  
+- **Git add and Git commit:**  
 Once, you have editted a file, and saved it, the changes are not visible on your version control i.e. git. To do that the changes must be committed. Github commits only those files that are in the staging area or stage. Files are added to the stage using git add command.  
 To add specific files to the stage:
 ```sh
