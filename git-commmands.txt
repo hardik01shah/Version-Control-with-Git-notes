@@ -1,3 +1,4 @@
+All this is already mentioned in the README. This file has no use as such :P
 #git commmands
 
 git clone /url
