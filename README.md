@@ -153,7 +153,7 @@ While I was at it, I also learnt markdown. This README contains git commands and
 	```
 	git clone:
 	```sh
-	git clone git://github.com/chandra/repo.git 
+	git clone git://github.com/<username>/<repo-name>.git
 	```
 
 git-commands.txt file consists of all the bash commands for git. 
