@@ -15,16 +15,16 @@ While I was at it, I also learnt markdown. This README contains git commands and
 - **Git clone:**  
 	Git clone command is used when you want to work on a public repo on github or any other remote, and you want to work on it locally on your PC. It is as if you are downloading the entire project on your machine and now it is upto you to do whatever you want to. Note that this repository will automatically be initialized as a git repository on your machine and you can push this to other remotes as well after making your changes. A repo can be cloned, updated and then pushed to github.  
 	Terminal command:  
-	```console
+	```shell
 	git clone <url>
 	```
 	For e.g.
-	```console
+	```shell
 	https/https://github.com/hardik01shah/code-templates.git
 	```
 - **Git init:**  
 	This command is used for pushing existing directories on your machine to a remote like github. Not all directories on your machine are git repositories. They need to be initialized as git repositories. To do that use the command:  
-	```console
+	```shell
 	git init
 	```
 	An existing directory on local machine,
@@ -37,11 +37,11 @@ While I was at it, I also learnt markdown. This README contains git commands and
 
 - **Git status:**  
 	This commmand is used to get the status of the pwd(present working directory). Once you execute this command you get to know what all changes are yet to be committed, what all files are not added to the repository. 
-	```console
+	```shell
 	git status
 	```  
 	We also have another command for a short status.
-	```console
+	```shell
 	git status -s
 	```
 	This will give a short status.  
@@ -52,82 +52,86 @@ While I was at it, I also learnt markdown. This README contains git commands and
 - **Git remote:**  
 	There are various commands associated with remotes.  
 	This command shows you the list of all the remotes available for that git repository.
-	```console
+	```shell
 	git remote
 	```  
 	This command shows the remotes with more information than the previous command.
-	```console
+	```shell
 	git remote -v
 	```
 	This command is used to add a remote. When you plan to add a repository on your local machine to a new empty repository on github, use the command to add github as a remote.
 	For creating a new remote (origin is a convention, it is the name of the remote)
 	*this will work only if a repository is created on github. first create repo on github and then run the add remote cmd.
-	```console
+	```shell
 	git remote add origin https://github.com/<username>/<repo_name>.git
 	```
 	For e.g.
-	```console
+	```shell
 	git remote add origin https://github.com/hardik01shah/code_templates.git
 	```
 
 	- **Git config:**  
 	This command gives you information about your registered email and username with git on your local machine.
-	```console
+	```shell
 	git config --list
 	```
 
 - **Git add and Git commit:**  
 	Once, you have editted a file, and saved it, the changes are not visible on your version control i.e. git. To do that the changes must be committed. Github commits only those files that are in the staging area or stage. Files are added to the stage using git add command.  
 	To add specific files to the stage:
-	```console
+	```shell
 	git add <file-name>
 	```
 	To add all the files in the pwd:
-	```console
+	```shell
 	git add .
 	```  
 	Now, to commit these changes, we use the git commit command. 
 	To commit files that are added to the stage use:
-	```console
+	```shell
 	git commit -m "Type-your-message-here"
 	```
 	The -m extension is used for adding a message with a commit like "Updated README"
 
 	TO commit all the files in the pwd, you don't need to use git add. Directly run the command:
-	```console
+	```shell
 	git commit -a -m "Type-your-message-here"
 	```
 - **Git Log:**  
 	With this command you can view the entire history of the repository. It lists all the commits of the project.
-	```console
+	```shell
 	git log
 	```  
 	Use the below command to view a shorter history.
-	```console
+	```shell
 	git log --oneline
 	```
 	Add a number parameter at the end of the command to view a specific number of commits. The below command will display the last 2 commits.  
-	```console
+	```shell
 	git log --oneline -2
+	```  
+	To view the git graph model of the current repository:
+	```shell
+	git log --oneline --graph
 	```
 - **Git push:**  
 	Now that changes have been committed, you need to push these changes to a remote like github. After this command changes you made locally on your machine will be visible on your github repo.  
 	Use:
-	```console
+	```shell
 	git push <remote> <branch>
 	```
 	For e.g.
-	```console
+	```shell
 	git push origin master 
 	```
 	The set upstream, [-u] option, is used to set up a tracking relationship between the local branch and the corresponding remote branch. Git can then inform when the branches are out of sync.
-	```console
+	```shell
 	git push -u origin master 
 	```
 
 - **Git Pull:**  
 	Now, if you made changes to your files on your remote like Github, or someone else who is collaborator pushed some changes to the repo on the remote, and you want that version on your local machine, you pull those changes using git pull. Note that, if you make some changes on your local machine and some changes have been made on the remote repo, but haven't been pulled and you try to push your changes an error will come up. Like this:
-	```console
+	```shell
 	! [rejected]        master -> master (fetch first)
 	error: failed to push some refs to 'https://github.com/<username>/<repo-name>.git'
 	hint: Updates were rejected because the remote contains work that you do
@@ -139,21 +143,21 @@ While I was at it, I also learnt markdown. This README contains git commands and
 	To fix, pull the remote changes and then push your changes. A merge will occur in this situation and if no merge conflicts occur, the merge will be handled by git.
 
 	to pull use:
-	```console
+	```shell
 	git pull <remote> <branch>
 	```
 	For e.g.
-	```console
+	```shell
 	git pull origin master
 	```
 - **Git Fetch:**  
 	Git fetch is used to fetch all information about changes in the remote branch. Run:
-	```console
+	```shell
 	git fetch --all
 	git status
 	```
 	Now, if you have made changes on your remote but not pulled them it will show
-	```console
+	```shell
 	On branch master
 	Your branch is behind '<remote>/<branch>' by 1 commit, and can be fast-forwarded.
 	  (use "git pull" to update your local branch)
@@ -169,14 +173,14 @@ While I was at it, I also learnt markdown. This README contains git commands and
 
 	The clone will setup additional remote-tracking branches.
 	git pull:
-	```console
+	```shell
 	git init
 	git remote add origin git://github.com/<username>/<repo-name>.git
 	git fetch --all
 	git pull origin master
 	```
 	git clone:
-	```console
+	```shell
 	git clone git://github.com/<username>/<repo-name>.git
 	```
 
