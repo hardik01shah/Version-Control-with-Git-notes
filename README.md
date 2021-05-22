@@ -120,6 +120,10 @@ While I was at it, I also learnt markdown. This README contains git commands and
 	```console
 	git push origin master 
 	```
+	The set upstream, [-u] option, is used to set up a tracking relationship between the local branch and the corresponding remote branch. Git can then inform when the branches are out of sync.
+	```console
+	git push -u origin master 
+	```
 
 - **Git Pull:**  
 	Now, if you made changes to your files on your remote like Github, or someone else who is collaborator pushed some changes to the repo on the remote, and you want that version on your local machine, you pull those changes using git pull. Note that, if you make some changes on your local machine and some changes have been made on the remote repo, but haven't been pulled and you try to push your changes an error will come up. Like this:
