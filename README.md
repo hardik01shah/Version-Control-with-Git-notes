@@ -39,7 +39,12 @@ While I was at it, I also learnt markdown. This README contains git commands and
 	This commmand is used to get the status of the pwd(present working directory). Once you execute this command you get to know what all changes are yet to be committed, what all files are not added to the repository. 
 	```console
 	git status
+	```  
+	We also have another command for a short status.
+	```console
+	git status -s
 	```
+	This will give a short status. ?? implies the file/directory is untracked.
 
 - **Git remote:**  
 	There are various commands associated with remotes.  
