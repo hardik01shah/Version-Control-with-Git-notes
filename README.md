@@ -1,4 +1,4 @@
-# Code-Templates
+# Version Control with Git:
 
 Created this repo for understanding the concpets of git and github.  
 While I was at it, I also learnt markdown. This README contains git commands and some basic explanation wherever needed for future reference.
