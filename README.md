@@ -98,9 +98,17 @@ While I was at it, I also learnt markdown. This README contains git commands and
 	git commit -a -m "Type-your-message-here"
 	```
 - **Git Log:**  
-	With this command you can view the entire history of the repository.
+	With this command you can view the entire history of the repository. It lists all the commits of the project.
 	```console
 	git log
+	```  
+	Use the below command to view a shorter history.
+	```console
+	git log --oneline
+	```
+	Add a number parameter at the end of the command to view a specific number of commits. The below command will display the last 2 commits.  
+	```console
+	git log --oneline -2
 	```
 - **Git push:**  
 	Now that changes have been committed, you need to push these changes to a remote like github. After this command changes you made locally on your machine will be visible on your github repo.  
