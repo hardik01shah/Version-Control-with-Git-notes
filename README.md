@@ -102,7 +102,7 @@ While I was at it, I also learnt markdown. This README contains git commands and
 	```shell
 	git log
 	```  
-	Use the below command to view a shorter history.
+	Use the below command to view a shorter history. This command keeps things concise.
 	```shell
 	git log --oneline
 	```
