@@ -110,7 +110,7 @@ While I was at it, I also learnt markdown. This README contains git commands and
 	```shell
 	git log --oneline -2
 	```  
-	To view the git graph model of the current repository:
+	To view the git graph model of the current repository (commits point to their parent commits):
 	```shell
 	git log --oneline --graph
 	```
