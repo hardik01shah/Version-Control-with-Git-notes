@@ -97,7 +97,11 @@ While I was at it, I also learnt markdown. This README contains git commands and
 	```console
 	git commit -a -m "Type-your-message-here"
 	```
-
+- **Git Log:**  
+	With this command you can view the entire history of the repository.
+	```console
+	git log
+	```
 - **Git push:**  
 	Now that changes have been committed, you need to push these changes to a remote like github. After this command changes you made locally on your machine will be visible on your github repo.  
 	Use:
