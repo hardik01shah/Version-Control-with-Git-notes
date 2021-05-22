@@ -44,7 +44,10 @@ While I was at it, I also learnt markdown. This README contains git commands and
 	```console
 	git status -s
 	```
-	This will give a short status. ?? implies the file/directory is untracked.
+	This will give a short status.  
+	?? implies the file/directory is untracked.  
+	A implies the file/directory is staged.  
+	A/M implies the file/directory has a modified version in the working tree from the version in the staging area.
 
 - **Git remote:**  
 	There are various commands associated with remotes.  
