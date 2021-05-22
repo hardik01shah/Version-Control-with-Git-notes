@@ -1,7 +1,13 @@
-# Version Control with Git:
+# Version Control with Git
 
 Created this repo for understanding the concpets of git and github.  
-While I was at it, I also learnt markdown. This README contains git commands and some basic explanation wherever needed for future reference.
+I took two courses for git and this repo contains summary of them both for my future reference.  
+The courses were:  
+1. Git and Github for poets (the coding train)  
+2. Version Control with Git by Atlassian (coursera)  
+</br>
+
+While I was at it, I also learnt **markdown**. This README contains git commands and some basic explanation wherever needed for future reference.
 
 ## _Git Concepts:_  
 - **Git vs Github:**  
@@ -185,8 +191,10 @@ While I was at it, I also learnt markdown. This README contains git commands and
 	```
 
 git-commands.txt file consists of all the bash commands for git. 
+The other two cpp scripts are my templates for competitive coding.
 
 For getting acquainted to markdown refer to : https://www.markdownguide.org/basic-syntax/  
-For git tutorials refer to: https://youtube.com/playlist?list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV  
+For git tutorials refer to:  
+1. (The Coding Train) https://youtube.com/playlist?list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV  
+2. (Atlassian coursera) https://www.coursera.org/learn/version-control-with-git/
 
-The other two cpp scripts are my templates for competitive coding.
